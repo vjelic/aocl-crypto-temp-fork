@@ -25,6 +25,5 @@ jobs:
           ignore: 'examples'
           debug: 'true'
           upload: 'true'
-          client: 'mural'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
