@@ -23,7 +23,7 @@ jobs:
         with:
           lang: 'cpp,oss'
           ignore: 'examples'
-          debug: 'false'
+          debug: 'true'
           upload: 'true'
           client: 'mural'
           github-token: ${{ secrets.PAT_TOKEN }}
